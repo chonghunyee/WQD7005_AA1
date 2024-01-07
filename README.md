@@ -10,14 +10,17 @@ i)	To identify the trend, patterns and the factors contributing to the customers
 ii)	To study the relationship between the customers’ churn and other variables.
 
 # Tools’ Roles and Justification
-Talend Data Integration
+## Talend Data Integration
 In this project, Talend Data Integration is chosen because it allows task like merging 2 different datasets together easily. In doing this, I do not need to combine the dataset one by one manually with will take a long time. Besides, after merging, the dataset is huge whereby it consists of 250,000 rows and 13 columns. 
+![image](https://github.com/chonghunyee/WQD7005_AA1/assets/155872445/f581f076-25b6-422c-b2b3-99993778ad1e)
 
-Talend Data Preparation
+## Talend Data Preparation
 Talend Data Prep tool is selected due to its ability in preparing data, including data cleaning and transformation steps. In this project, this tool is used to handle data inconsistencies as well as to transform data which is to transform the date format to YYYY-MM-DD.
+![image](https://github.com/chonghunyee/WQD7005_AA1/assets/155872445/7c41d48d-0d34-4da2-8583-57ec993d0d8f)
 
-SAS Enterprise-Miner
+## SAS Enterprise-Miner
 SAS Enterprise-Miner is used because of its ability to do stratified sampling, data imputation, data modification, data modelling and model assessing. To further elaborate, for sampling phase, stratified random sampling is applied where only 10% of the dataset is used for this project. This can be seen where it helps to reduce the number of rows from 250,000 to 25,000 rows. Besides, it also allows data modification to drop variable such as CustomerID which is not significant in this project and will not affect the customer churn prediction. In addition, data imputation is also done by imputing the missing values of “ProductReturns” columns with “count” or mode. Lastly, this tool assists in building data mining models, including decision trees, HP forest, and Gradient Boosting. It also provides models’ performances evaluation which is under the “Assess” phase in SEMMA methodology.
+![image](https://github.com/chonghunyee/WQD7005_AA1/assets/155872445/27d5b976-892d-4f51-8f12-78a9576fa4dc)
 
 # Steps In Using Each Tool
 ## Talend Data Integration
